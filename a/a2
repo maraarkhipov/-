@@ -1,0 +1,5 @@
+a,b,c,d,e=list(map(int, input().format(str)))
+if a==e and b==d:
+    print(("это число палимдромомное"))
+else:
+    print("число не палимдромомное")
